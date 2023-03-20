@@ -2,7 +2,6 @@ import { redirect } from '@sveltejs/kit';
 //import { TEST_API_KEY } from '$env/static/private';
 import Stripe from 'stripe';
 
-
 export const actions = {
     checkout: async ({ request }) => {
 
