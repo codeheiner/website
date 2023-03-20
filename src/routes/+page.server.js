@@ -12,7 +12,7 @@ export const actions = {
             name: kurs
         }
 
-        const res = await fetch("http://127.0.0.1:8000/checkout",{
+        const res = await fetch("https://codeheiner-1-o1669007.deta.app/checkout",{
             method:"POST",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(payload)
