@@ -17,7 +17,7 @@
 
     <header class="container">
       <hgroup>
-        <h1>Programmieren für Einsteiger 1</h1>
+        <h1>Programmieren mit Python für Einsteiger</h1>
         <h2>Ein umfassender Programmierkurs für Anfänger<br></h2>
       </hgroup>
       <p><a href="#buy" role="button">Kurs buchen!</a></p>
@@ -35,12 +35,15 @@
           <h3>Fundierte Wissensvermittlung braucht einen professionellen Rahmen.</h3>
         </hgroup>
         <p>
-          Unser Python-Kurs ist als Einstiegskurs für Anfänger gedacht. Um den Kurs mit Erfolg zu beenden, benötigen Sie daher kein Vorwissen. 
-          Wir bringen Ihnen alles bei was Sie brauchen um als Python-Programmierer produktiv zu werden. 
-          Damit Ihre neu-erworbenen Fähigkeiten auch im Kopf bleiben setzen wir ein Augenmerk auf Verständnis. Sie müssen wissen, warum Sie etwas machen.
-          Rezepte helfen Ihnen dagegen nicht. Das Wissen um das "Warum", erwächst aus einem soliden Wissen über die Funktionsweise
-          der Sprache selbst. Dafür widerum werden wir häufig über den Tellerrand blicken und Python durch spielerischen Vergleich von anderen
-          Sprachen abgrenzen und mithin verstehen was Python nicht ist und wo die Grenzen der Sprache liegen.
+          Unser Python-Kurs ist als Einstiegskurs für Anfänger gedacht. 
+          Um den Kurs mit Erfolg zu beenden, benötigen Sie daher kein Vorwissen. 
+          Wir bringen Ihnen alles bei was Sie wissen sollten, um als Python-Programmierer durchstarten zu können! 
+          Damit Ihre neu erworbenen Fähigkeiten auch dauerhaft im Kopf bleiben, setzen wir ein Augenmerk auf Verständnis 
+          der gelehrten Konzepte. 
+          Nur wenn Sie das "Warum" kennen, erreichen Sie die geistige Flexibilität die sehr gute Entwickler auszeichnet.
+          Rezepte helfen Ihnen dagegen nicht. Für dieses Verständnis ist es unabdingbar, auch über den Tellerrand zu blicken 
+          und Python besipielsweise durch spielerischen Vergleich von anderen Sprachen abgrenzen und zu ermitteln, wo die Stärken und die Grenzen
+          der Sprache liegen.
         </p>
         <figure>
           <img src="ashim-d-silva-3Ijt7UkSBYE-unsplash-1500x750.jpg" alt="Architecture">
@@ -69,14 +72,14 @@
               <td>Datentypen</td>
               <td>Klassen</td>
               <td>Nebenläufigkeit</td>
-              <td></td>
+              <td>Handwerkszeug</td>
             </tr>
             <tr>
               <th scope="row">2</th>
               <td>Funktionen</td>
               <td>Errors</td>
               <td>Effizientes Python</td>
-              <td></td>
+              <td>Softskills</td>
             </tr>
             <tr>
               <th scope="row">3</th>
@@ -96,14 +99,15 @@
             </tr>
           </tfoot> -->
         </table>
-        <h3>Alles dabei!</h3>
+        <h3>Softskills sind auch wichtig!</h3>
           
         <p>
           Nicht nur harte Fakten, sondern auch Softskills machen den guten Programmierer!<br><br>
-          Neben den in obiger Tablle aufgelisteten Inhalten, legen wir während des gesamten Kurses Wert auf die Besonderheiten der Sprache Python
-          und lernen insbesondere eingebaute Bibliotheken kennen, sowie Softskills die Sie als Programmierer brauchen, um sich selbst
-          zu helfen, falls Sie einmal vor einem kniffligen Problem stehen. Außerdem zeigen wir Ihnen, wie professionelle Softwareentwickler Software 
-          schreiben, versionieren und debuggen.
+          Neben den technischen Grundlagen, werden wir auch die Softskills herausarbeiten, die 
+          ein schnelles Vorankommen in diesem spannenden aber zuweilen kniffligen Betätigungsfeld
+          stark begünstigen. Zu diesem Zweck wird es gegen Ende des Kurses ein eigenes Modul geben. 
+          Dennoch werden wir versuchen, über den gesamten Kurs hinweg immer wieder die Sichtweise des 
+          Ingenieurs und Tüftlers einzunehmen, um schon in kurzer Zeit ein wenig Routine zu bekommen. 
         </p>
         
         <h3>Zu guter Letzt: Unser Versprechen an Sie</h3>
@@ -111,7 +115,7 @@
           Wir wollen Ihnen keinen Kurs verkaufen, wie er schon in tausendfacher Ausführung im Netz oder bei anderen Anbietern
           existiert. Sie sollen nach dem Kurs mit dem Wissen nach Hause gehen, etwas gelernt zu haben von dem Sie dauerhaft
           zehren können und Ihnen einen echten Nutzen bringt. Dafür setzen wir auf Interaktion, knifflige Aufgaben und 
-          das Kommunizieren über Programmiercode.
+          die Methode des verbalen Austauschs über den von Ihnen geschrieben Programmiercode.
           Außerdem ermöglichen wir jedem Teilnehmer am Ende des Kurses ein Feedbackgespräch und das Stellen von Fragen im Vier-Augen-Gespräch.
         </p>
       </section>
