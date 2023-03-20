@@ -2,11 +2,11 @@ import { redirect } from '@sveltejs/kit';
 //import { TEST_API_KEY } from '$env/static/private';
 import Stripe from 'stripe';
 
+
+
+
 export const actions = {
     checkout: async ({ request }) => {
-
-        // const formdata = await request.formData();
-        // const kursName = formdata.get("kurs")
 
         // @ts-ignore
         var stripe = Stripe(process.env.PROD_API_KEY)
