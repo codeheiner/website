@@ -154,9 +154,9 @@
             <option>Python DevOps</option>
           </select>
 
-          <label for="date">Wählen Sie ein Kursdatum
+          <!-- <label for="date">Wählen Sie ein Kursdatum
             <input type="date" id="date" name="date">
-          </label>
+          </label> -->
                 
           <button type="submit" id="checkout-button">Checkout</button>
   
