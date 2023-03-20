@@ -1,27 +1,29 @@
 import { redirect } from '@sveltejs/kit';
+import { TEST_API_KEY, PROD_API_KEY } from '$env/static/private';
+import Stripe from 'stripe';
+
 
 export const actions = {
-    checkout : async ({ request }) => {
-        console.log("yay")
-        const formdata = await request.formData();
+    checkout: async ({ request }) => {
 
-        const kurs = formdata.get("kurs")
-        const kursDatum = formdata.get("date")
-        
-        const payload = {
-            name: kurs
-        }
+        // const formdata = await request.formData();
+        // const kursName = formdata.get("kurs")
 
-        const res = await fetch("https://codeheiner-1-o1669007.deta.app/checkout",{
-            method:"POST",
-            headers: {"Content-Type": "application/json"},
-            body: JSON.stringify(payload)
-        })
+        // @ts-ignore
+        var stripe = Stripe(PROD_API_KEY)
 
-        const data = await res.json()
-        console.log(data)
+        const session = await stripe.checkout.sessions.create({
+            line_items: [{ price: "price_1MnTJ4Dlv47dRGNIKbR1wXKc", quantity: 1}],
+            mode: "payment",
+            success_url: "http://www.codeheiner.de/bezahlen",
+            cancel_url: "http://www.codeheiner.de/abbruch"
+        });
 
-    throw redirect(303, data.url)
+        throw redirect(303, session.url)
+
+        console.log(stripe)
+
     }
+
 }
 
