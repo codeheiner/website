@@ -15,8 +15,8 @@ export const actions = {
         const session = await stripe.checkout.sessions.create({
             line_items: [{ price: "price_1MnTJ4Dlv47dRGNIKbR1wXKc", quantity: 1}],
             mode: "payment",
-            success_url: "https://www.codeheiner.de/bezahlen",
-            cancel_url: "https://www.codeheiner.de/abbruch"
+            success_url: "http://www.codeheiner.de/bezahlen",
+            cancel_url: "http://www.codeheiner.de/abbruch"
         });
 
         throw redirect(303, session.url)
