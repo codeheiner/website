@@ -23,7 +23,7 @@
       <p><a href="#buy" role="button">Kurs buchen!</a></p>
     </header>
 
-  </div><!-- ./ Hero -->
+  </div>
 
   <!-- Main -->
   <main class="container" style={"margin-top: 80px"}>
@@ -46,8 +46,8 @@
           der Sprache liegen.
         </p>
         <figure>
-          <img src="ashim-d-silva-3Ijt7UkSBYE-unsplash-1500x750.jpg" alt="Architecture">
-          <figcaption>Image from <a href="https://unsplash.com/photos/3Ijt7UkSBYE" target="_blank">unsplash.com</a></figcaption>
+          <img src="konf.jpg" alt="Konferenzraum">
+          <figcaption>Unsere Räumlichkeiten im Büro Waldspirale</figcaption>
         </figure>
         
           <h3>Kursübersicht</h3>
@@ -99,6 +99,11 @@
             </tr>
           </tfoot> -->
         </table>
+
+        <a role="button" href="./test.txt" download="Test">
+          Vollstädnigen Plan runterladen (PDF)
+        </a>
+
         <h3>Softskills sind auch wichtig!</h3>
           
         <p>
@@ -121,7 +126,7 @@
       </section>
     
       <aside>
-        <a href="." aria-label="Example"><img src="maarten-deckers-T5nXYXCf50I-unsplash-1500x750.jpg" alt="Architecture"></a>
+        <a href="." aria-label="Example"><img src="konf.jpg" alt="Architecture"></a>
         <p>
           <a href="." >Unsere Räumlichkeiten</a><br>
           <small>Für Verpflegung ist immer gesorgt! </small>
@@ -155,7 +160,7 @@
 
           <select id="kurs" name="kurs" required>
             <option>Programmieren für Einsteiger 1</option>
-            <option>Python DevOps</option>
+            <!-- <option>Python DevOps</option> -->
           </select>
 
           <!-- <label for="date">Wählen Sie ein Kursdatum
@@ -169,3 +174,16 @@
       </article>
     </div>
   </section>
+
+
+  <footer class="container">
+    <nav>
+    <ul>
+      <li><a href="./impressum">Impressum</a></li>
+      <!-- <li><a href="./jobs">Jobs</a></li> -->
+    </ul>
+  </nav>
+  </footer>
+
+
+  <!-- Für fast die Hälfte der befragten Firmen stellen Kosten (48 %) und Zeitmangel (46 %) die größten Hürden bei der Digitalisierung ihres Unternehmens dar, gefolgt von Unsicherheit bezüglich Sicherheit und Datenschutz (39 %). Für mehr als ein Drittel (37 %) der Befragten ist mangelndes Know-how die größte Digitalisierungs-Bremse, bei knapp einem Viertel (24 %) scheitert es am Interesse. -->
