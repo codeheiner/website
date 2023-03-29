@@ -13,14 +13,44 @@
       <ul>
         <li><a href="./" class="contrast"><strong>CodeHeiner</strong></a></li>
       </ul>
+
+      <ul>
+        <li>
+          <details role="list" dir="rtl">
+            <summary aria-haspopup="listbox" role="link" class="contrast">Kursangebot</summary>
+            <ul role="listbox">
+              <li><a href="/kurse/k1" data-theme-switcher="auto">Programmieren für Einsteiger</a></li>
+              <li><a href="/kurse/k2" data-theme-switcher="dark">Machinelearning Basis</a></li>
+              <li><a href="/kurse/k3" data-theme-switcher="light">DevOps</a></li>
+              <li><a href="/kurse/k4" data-theme-switcher="dark">Cloud-Architektur</a></li>
+              <li><a href="/kurse/k5" data-theme-switcher="dark">Software-Engineering</a></li>
+              <li><a href="/kurse/k6" data-theme-switcher="dark">Realtime Python</a></li>
+              
+            </ul>
+          </details>
+        </li>
+
+        <!-- <li>
+          <details role="list" dir="rtl">
+            <summary aria-haspopup="listbox" role="link" class="contrast">Examples</summary>
+            <ul role="listbox">
+              <li><a href="../preview/">Preview</a></li>
+              <li><a href="../preview-rtl/">Right-to-left</a></li>
+            </ul>
+          </details>
+        </li> -->
+
+      </ul>
+
     </nav>
 
     <header class="container">
       <hgroup>
-        <h1>Programmieren mit Python für Einsteiger</h1>
-        <h2>Ein umfassender Programmierkurs für Anfänger<br></h2>
+        <h1>Programmierkurse in Darmstadt</h1>
+        <h2>für alle vom Anfänger bis zum erfahrenen Praktiker<br>
+      </h2>
       </hgroup>
-      <p><a href="#buy" role="button">Kurs buchen!</a></p>
+      <p><a href="#buy" role="button">Kursangebot als PDF downloaden</a></p>
     </header>
 
   </div>
@@ -31,7 +61,7 @@
 
       <section>
         <hgroup>
-          <h2>Da kann Youtube nicht mithalten!</h2>
+          <h2>Da kann YouTube nicht mithalten!</h2>
           <h3>Fundierte Wissensvermittlung braucht einen professionellen Rahmen.</h3>
         </hgroup>
         <p>
@@ -47,7 +77,7 @@
         </p>
         <figure>
           <img src="konf.jpg" alt="Konferenzraum">
-          <figcaption>Unsere Räumlichkeiten im Büro Waldspirale</figcaption>
+          <figcaption>...</figcaption>
         </figure>
         
           <h3>Kursübersicht</h3>
@@ -146,7 +176,7 @@
     </div>
   </main><!-- ./ Main -->
 
-  <section id="buy" aria-label="Subscribe example">
+  <!-- <section id="buy" aria-label="Subscribe example">
     <div class="container">
       <article>
         <hgroup>
@@ -160,12 +190,12 @@
 
           <select id="kurs" name="kurs" required>
             <option>Programmieren für Einsteiger 1</option>
-            <!-- <option>Python DevOps</option> -->
+            <option>Python DevOps</option>
           </select>
 
-          <!-- <label for="date">Wählen Sie ein Kursdatum
+          <label for="date">Wählen Sie ein Kursdatum
             <input type="date" id="date" name="date">
-          </label> -->
+          </label>
                 
           <button type="submit" id="checkout-button">Checkout</button>
   
@@ -173,7 +203,7 @@
 
       </article>
     </div>
-  </section>
+  </section> -->
 
 
   <footer class="container">
