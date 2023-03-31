@@ -65,91 +65,40 @@
           <h3>Fundierte Wissensvermittlung braucht einen professionellen Rahmen.</h3>
         </hgroup>
         <p>
-          Unser Python-Kurs ist als Einstiegskurs für Anfänger gedacht. 
-          Um den Kurs mit Erfolg zu beenden, benötigen Sie daher kein Vorwissen. 
-          Wir bringen Ihnen alles bei was Sie wissen sollten, um als Python-Programmierer durchstarten zu können! 
-          Damit Ihre neu erworbenen Fähigkeiten auch dauerhaft im Kopf bleiben, setzen wir ein Augenmerk auf Verständnis 
-          der gelehrten Konzepte. 
+          Unser Angebot von extrem relevanten Kursen setzt grundsätzlich kein Wissen auf dem jeweiligen Gebiet voraus. 
+          Um einen unserer Kurse erfolgreich zu absolvieren benötigen Sie daher nicht mehr als die Lust am Lernen. 
+          Wir bringen Ihnen alles bei was Sie wissen sollten, um durchstarten und sich nach dem Kurs selbstständig 
+          in der neuen Thematik weiter zu bilden! 
+          Damit Ihre neu erworbenen Fähigkeiten auch dauerhaft im Kopf bleiben, setzen wir in jedem Kurs ein Augenmerk auf Verständnis 
+          der gelehrten Konzepte ohne dabei zu weit in die graue Theorie einzutauchen. 
           Nur wenn Sie das "Warum" kennen, erreichen Sie die geistige Flexibilität die sehr gute Entwickler auszeichnet.
           Rezepte helfen Ihnen dagegen nicht. Für dieses Verständnis ist es unabdingbar, auch über den Tellerrand zu blicken 
-          und Python besipielsweise durch spielerischen Vergleich von anderen Sprachen abgrenzen und zu ermitteln, wo die Stärken und die Grenzen
+          und  besipielsweise durch spielerischen Vergleich von anderen Sprachen abgrenzen und zu ermitteln, wo die Stärken und die Grenzen
           der Sprache liegen.
         </p>
         <figure>
           <img src="konf.jpg" alt="Konferenzraum">
           <figcaption>...</figcaption>
         </figure>
-        
-          <h3>Kursübersicht</h3>
-          <p>
-            Sinnvolle Gliederung und ausreichende Pausen sind wichtig. 
-            Darum trifft sich der Kurs nach Absprache an drei oder an vier Tagen.
-          </p>
-      
-        <table>
-          <thead>
-            <tr>
-              <th scope="col">Modul</th>
-              <th scope="col">Do</th>
-              <th scope="col">Fr</th>
-              <th scope="col">Sa</th>
-              <th scope="col">So</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Datentypen</td>
-              <td>Klassen</td>
-              <td>Nebenläufigkeit</td>
-              <td>Handwerkszeug</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Funktionen</td>
-              <td>Errors</td>
-              <td>Effizientes Python</td>
-              <td>Softskills</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Schleifen</td>
-              <td>Fehlersuche</td>
-              <td>Asyncio</td>
-              <td>Projekt</td>
-            </tr>
-          </tbody>
-          <!-- <tfoot>
-            <tr>
-              <th scope="col">#</th>
-              <td scope="col">Total</td>
-              <td scope="col">Total</td>
-              <td scope="col">Total</td>
-              <td scope="col">Total</td>
-            </tr>
-          </tfoot> -->
-        </table>
 
-        <a role="button" href="./test.txt" download="Test">
-          Vollstädnigen Plan runterladen (PDF)
-        </a>
-
-        <h3>Softskills sind auch wichtig!</h3>
+        <h3>Softskill-Training inbegriffen!</h3>
           
         <p>
           Nicht nur harte Fakten, sondern auch Softskills machen den guten Programmierer!<br><br>
           Neben den technischen Grundlagen, werden wir auch die Softskills herausarbeiten, die 
           ein schnelles Vorankommen in diesem spannenden aber zuweilen kniffligen Betätigungsfeld
-          stark begünstigen. Zu diesem Zweck wird es gegen Ende des Kurses ein eigenes Modul geben. 
-          Dennoch werden wir versuchen, über den gesamten Kurs hinweg immer wieder die Sichtweise des 
-          Ingenieurs und Tüftlers einzunehmen, um schon in kurzer Zeit ein wenig Routine zu bekommen. 
+          stark begünstigen. Zu diesem Zweck werden wir versuchen, über den gesamten Kurs hinweg 
+          immer wieder die Sichtweise des Ingenieurs und Tüftlers einzunehmen, um schon in kurzer 
+          Zeit ein wenig Routine zu bekommen.  
         </p>
         
         <h3>Zu guter Letzt: Unser Versprechen an Sie</h3>
         <p>
-          Wir wollen Ihnen keinen Kurs verkaufen, wie er schon in tausendfacher Ausführung im Netz oder bei anderen Anbietern
-          existiert. Sie sollen nach dem Kurs mit dem Wissen nach Hause gehen, etwas gelernt zu haben von dem Sie dauerhaft
-          zehren können und Ihnen einen echten Nutzen bringt. Dafür setzen wir auf Interaktion, knifflige Aufgaben und 
+          Wir wollen Ihnen keinen Kurs verkaufen wie er schon in tausendfacher Ausführung im Netz 
+          oder bei anderen Anbietern existiert. Sie sollen nach dem Kurs mit dem Wissen nach Hause gehen, 
+          etwas gelernt zu haben von dem Sie dauerhaft
+          zehren können und Ihnen einen echten Nutzen bringt. Dafür setzen wir auf Interaktion, 
+          knifflige Aufgaben und 
           die Methode des verbalen Austauschs über den von Ihnen geschrieben Programmiercode.
           Außerdem ermöglichen wir jedem Teilnehmer am Ende des Kurses ein Feedbackgespräch und das Stellen von Fragen im Vier-Augen-Gespräch.
         </p>
@@ -204,16 +153,5 @@
       </article>
     </div>
   </section> -->
-
-
-  <footer class="container">
-    <nav>
-    <ul>
-      <li><a href="./impressum">Impressum</a></li>
-      <!-- <li><a href="./jobs">Jobs</a></li> -->
-    </ul>
-  </nav>
-  </footer>
-
 
   <!-- Für fast die Hälfte der befragten Firmen stellen Kosten (48 %) und Zeitmangel (46 %) die größten Hürden bei der Digitalisierung ihres Unternehmens dar, gefolgt von Unsicherheit bezüglich Sicherheit und Datenschutz (39 %). Für mehr als ein Drittel (37 %) der Befragten ist mangelndes Know-how die größte Digitalisierungs-Bremse, bei knapp einem Viertel (24 %) scheitert es am Interesse. -->
