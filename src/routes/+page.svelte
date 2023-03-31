@@ -1,4 +1,5 @@
 <script>
+  import { kurse } from "../lib/Kursangebot";
 </script>
 
  <!-- Hero -->
@@ -19,12 +20,10 @@
           <details role="list" dir="rtl">
             <summary aria-haspopup="listbox" role="link" class="contrast">Kursangebot</summary>
             <ul role="listbox">
-              <li><a href="/kurse/k1" data-theme-switcher="auto">Programmieren für Einsteiger</a></li>
-              <li><a href="/kurse/k2" data-theme-switcher="dark">Machinelearning Basis</a></li>
-              <li><a href="/kurse/k3" data-theme-switcher="light">DevOps</a></li>
-              <li><a href="/kurse/k4" data-theme-switcher="dark">Cloud-Architektur</a></li>
-              <li><a href="/kurse/k5" data-theme-switcher="dark">Software-Engineering</a></li>
-              <li><a href="/kurse/k6" data-theme-switcher="dark">Realtime Python</a></li>
+
+              {#each kurse as kurs, i}
+                <li><a href="/kurse/{ i }" data-theme-switcher="auto">{ kurs.name }</a></li>
+              {/each}
               
             </ul>
           </details>
