@@ -58,10 +58,10 @@
   <main class="container" style={"margin-top: 80px"}>
     <div class="grid">
 
-      <section>
+      <section style={"text-align:justify"}>
         <hgroup>
-          <h2>Da kann YouTube nicht mithalten!</h2>
-          <h3>Fundierte Wissensvermittlung braucht einen professionellen Rahmen.</h3>
+          <h2>Professionelle Qualität!</h2>
+          <h3>Nachhaltige Wissensvermittlung braucht einen professionellen Rahmen.</h3>
         </hgroup>
         <p>
           Unser Angebot von extrem relevanten Kursen setzt grundsätzlich kein Wissen auf dem jeweiligen Gebiet voraus. 
@@ -79,11 +79,14 @@
           <img src="konf.jpg" alt="Konferenzraum">
           <figcaption>...</figcaption>
         </figure>
-
-        <h3>Softskill-Training inbegriffen!</h3>
+        
+        <hgroup>
+          <h2>Softskill-Training inbegriffen!</h2>
+          <h3>Zum Programmieren gehört mehr als Fakten-Wissen.</h3>
+        </hgroup>
           
         <p>
-          Nicht nur harte Fakten, sondern auch Softskills machen den guten Programmierer!<br><br>
+          Auch Softskills machen den guten Programmierer!<br>
           Neben den technischen Grundlagen, werden wir auch die Softskills herausarbeiten, die 
           ein schnelles Vorankommen in diesem spannenden aber zuweilen kniffligen Betätigungsfeld
           stark begünstigen. Zu diesem Zweck werden wir versuchen, über den gesamten Kurs hinweg 
@@ -91,15 +94,16 @@
           Zeit ein wenig Routine zu bekommen.  
         </p>
         
-        <h3>Zu guter Letzt: Unser Versprechen an Sie</h3>
-        <p>
+        <hgroup>
+          <h2>Zu guter Letzt: Unser Versprechen an Sie</h2>
+          <h3>Individuelle Tips und Wissen das bleibt.</h3>
+        </hgroup>        <p>
           Wir wollen Ihnen keinen Kurs verkaufen wie er schon in tausendfacher Ausführung im Netz 
           oder bei anderen Anbietern existiert. Sie sollen nach dem Kurs mit dem Wissen nach Hause gehen, 
-          etwas gelernt zu haben von dem Sie dauerhaft
-          zehren können und Ihnen einen echten Nutzen bringt. Dafür setzen wir auf Interaktion, 
-          knifflige Aufgaben und 
-          die Methode des verbalen Austauschs über den von Ihnen geschrieben Programmiercode.
-          Außerdem ermöglichen wir jedem Teilnehmer am Ende des Kurses ein Feedbackgespräch und das Stellen von Fragen im Vier-Augen-Gespräch.
+          etwas gelernt zu haben von dem Sie dauerhaftzehren können, Wissen das Ihnen einen echten Nutzen
+          bringt. Dafür setzen wir auf Interaktion, knifflige Aufgaben und die Methode des verbalen 
+          Austauschs über den von Ihnen geschrieben Programmiercode.Außerdem ermöglichen wir jedem 
+          Teilnehmer am Ende des Kurses ein Feedbackgespräch und das Stellen von Fragen im Vier-Augen-Gespräch.
         </p>
       </section>
     
@@ -109,16 +113,16 @@
           <a href="." >Unsere Räumlichkeiten</a><br>
           <small>Für Verpflegung ist immer gesorgt! </small>
         </p>
-        <a href="." aria-label="Example" ><img src="daniel-von-appen-tb4heMa-ZRo-unsplash-1500-750.jpg" alt="Architecture"></a>
+        <a href="." aria-label="Example" ><img src="thinkpad.png" alt="Architecture"></a>
         <p>
           <a href="." >Ihr Equipment</a><br>
-          <small>Wir stellen einen hochwertigen Laptop und Schreibwaren.</small>
+          <small>Wir stellen für die Kursdauer ein Lenovo Thinkpad.</small>
         </p>
-        <a href="." aria-label="Example" ><img src="matthew-hamilton-Ru3Ap8TNcsk-unsplash-1500-750.jpg" alt="Architecture"></a>
+        <!-- <a href="." aria-label="Example" ><img src="matthew-hamilton-Ru3Ap8TNcsk-unsplash-1500-750.jpg" alt="Architecture"></a>
         <p>
           <a href="." >So sehen zufriedene Teilnehmer aus!</a><br>
           <small>Wir sind zufrieden wenn Sie es sind!</small>
-        </p>
+        </p> -->
       </aside>
 
     </div>
