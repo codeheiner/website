@@ -7,12 +7,7 @@
 
 
 <div class="container">
-    <nav aria-label="breadcrumb">
-        <ul>
-          <li><a href="../">Home</a></li>
-          <!-- <li>{ $page.params.id }</li> -->
-        </ul>
-    </nav>
+
     <h1>{ data.name }</h1>
     <!-- <a style={"background-color: #546e7a; border:none"} role="button" href=".">Kursplan (PDF)</a> -->
     <p>{ data.beschreibung }</p>
@@ -26,7 +21,7 @@
         <th scope="col">Modul</th>
         <th scope="col">Freitag</th>
         <th scope="col">Samstag</th>
-        <th scope="col">Sonntag</th>
+        <th scope="col">So</th>
       </tr>
     </thead>
     <tbody>
