@@ -13,49 +13,31 @@
           <!-- <li>{ $page.params.id }</li> -->
         </ul>
     </nav>
-    <h2>{ data.name }</h2>
+    <h1>{ data.name }</h1>
     <!-- <a style={"background-color: #546e7a; border:none"} role="button" href=".">Kursplan (PDF)</a> -->
     <p>{ data.beschreibung }</p>
 
 
-    <h3>Kursübersicht</h3>
-    <p>
-      Sinnvolle Gliederung und ausreichende Pausen sind wichtig. 
-      Darum trifft sich der Kurs nach Absprache an drei oder an vier Tagen.
-    </p>
+    <h2>Kursübersicht</h2>
 
   <table>
     <thead>
       <tr>
         <th scope="col">Modul</th>
-        <th scope="col">Do</th>
-        <th scope="col">Fr</th>
-        <th scope="col">Sa</th>
-        <th scope="col">So</th>
+        <th scope="col">Freitag</th>
+        <th scope="col">Samstag</th>
+        <th scope="col">Sonntag</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Datentypen</td>
-        <td>Klassen</td>
-        <td>Nebenläufigkeit</td>
-        <td>Handwerkszeug</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Funktionen</td>
-        <td>Errors</td>
-        <td>Effizientes Python</td>
-        <td>Softskills</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>Schleifen</td>
-        <td>Fehlersuche</td>
-        <td>Asyncio</td>
-        <td>Projekt</td>
-      </tr>
+        {#each data.rows as rows, i}
+            <tr>
+                <td>{ i +1 }</td>
+                {#each rows as row}
+                    <td>{ row }</td>
+                {/each}
+            </tr>
+        {/each}
     </tbody>
     <!-- <tfoot>
       <tr>
