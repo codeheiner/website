@@ -70,7 +70,7 @@
           <input type="date" id="date" name="date">
         </label> -->
               
-        <button type="submit" id="checkout-button">jetzt buchen</button>
+        <button type="submit" id="checkout-button">JETZT BUCHEN!</button>
 
       </form>
 </div>

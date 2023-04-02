@@ -12,7 +12,7 @@
     </div> -->
     <nav class="container-fluid">
       <ul>
-        <li><a href="./" class="contrast"><strong>CodeHeiner</strong></a></li>
+        <li><a href="./" class="contrast"><strong>CodeHeiner 💻</strong></a></li>
       </ul>
 
       <ul>
@@ -85,7 +85,6 @@
         </hgroup>
           
         <p>
-          Auch Softskills machen den guten Programmierer!<br>
           Neben den technischen Grundlagen, werden wir auch die Softskills herausarbeiten, die 
           ein schnelles Vorankommen in diesem spannenden aber zuweilen kniffligen Betätigungsfeld
           stark begünstigen. Zu diesem Zweck werden wir versuchen, über den gesamten Kurs hinweg 
@@ -96,12 +95,13 @@
         <hgroup>
           <h2>Zu guter Letzt: Unser Versprechen an Sie</h2>
           <h3>Individuelle Tips und Wissen das bleibt.</h3>
-        </hgroup>        <p>
+        </hgroup>
+        <p>
           Wir wollen Ihnen keinen Kurs verkaufen wie er schon in tausendfacher Ausführung im Netz 
           oder bei anderen Anbietern existiert. Sie sollen nach dem Kurs mit dem Wissen nach Hause gehen, 
           etwas gelernt zu haben von dem Sie dauerhaftzehren können, Wissen das Ihnen einen echten Nutzen
           bringt. Dafür setzen wir auf Interaktion, knifflige Aufgaben und die Methode des verbalen 
-          Austauschs über den von Ihnen geschrieben Programmiercode.Außerdem ermöglichen wir jedem 
+          Austauschs über den von Ihnen geschrieben Programmiercode. Außerdem ermöglichen wir jedem 
           Teilnehmer am Ende des Kurses ein Feedbackgespräch und das Stellen von Fragen im Vier-Augen-Gespräch.
         </p>
       </section>
