@@ -13,7 +13,7 @@
     
     <hgroup>
         <h1>{ data.name }</h1>
-        <h2>{ data.preis }€ für den umfassenden drei-tägigen Kurs<br>
+        <h2>{ data.preis }€<br>
       </h2>
     </hgroup>
     <p>{ data.beschreibung }</p>
