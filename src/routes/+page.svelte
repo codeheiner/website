@@ -28,7 +28,6 @@
             </ul>
           </details>
         </li>
-
         <!-- <li>
           <details role="list" dir="rtl">
             <summary aria-haspopup="listbox" role="link" class="contrast">Examples</summary>
@@ -49,7 +48,7 @@
         <h2>für alle vom Anfänger bis zum erfahrenen Praktiker<br>
       </h2>
       </hgroup>
-      <p><a href="#buy" role="button">Kursangebot als PDF downloaden</a></p>
+      <p><a href="kursübersicht.pdf" role="button" download>Kursangebot als PDF downloaden</a></p>
     </header>
 
   </div>
