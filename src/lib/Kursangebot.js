@@ -1,6 +1,7 @@
 export let kurse = [
     {
         "price": "price_1MnOIbDlv47dRGNIEoIojwrw", 
+        "preis": 620,
         "name": "Programmieren für Einsteiger",
         "rows": [        
             ["Datentypen", "Klassen", "Nebenläufigkeit"],
@@ -18,6 +19,7 @@ export let kurse = [
     
     {
         "price": "price_1MqwM4Dlv47dRGNIHsJ3ANhk", 
+        "preis": 900,
         "name": "Grundlagen des Maschinellen Lernens",
         "rows": [        
             ["Was ist ML?", "Regression", "Neuronale Netze und Deep Learning"],
@@ -36,6 +38,7 @@ export let kurse = [
     
     {
         "price": "price_1MrlqeDlv47dRGNI8ZzF0MOC", 
+        "preis": 900,
         "name": "Einführung in Data Science mit Python", 
         "rows": [        
             ["Was ist Data Science?", "Daten sammeln und bereinigen", "Maschinelles Lernen"],

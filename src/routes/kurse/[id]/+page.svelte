@@ -8,13 +8,20 @@
 
 <div class="container">
 
-    <h1>{ data.name }</h1>
+    
     <!-- <a style={"background-color: #546e7a; border:none"} role="button" href=".">Kursplan (PDF)</a> -->
+    
+    <hgroup>
+        <h1>{ data.name }</h1>
+        <h2>{ data.preis }€ für den umfassenden drei-tägigen Kurs<br>
+      </h2>
+    </hgroup>
     <p>{ data.beschreibung }</p>
-
-
-    <h2>Kursübersicht</h2>
-
+    <hgroup>
+        <h2>Kursübersicht</h2>
+        <h3>Hier sehen Sie die wichtigesten Bausteine des Kurses. Eine detailliertere Beschreibung finden Sie im Kurs-PDF<br>
+      </h3>
+    </hgroup>
   <table>
     <thead>
       <tr>
