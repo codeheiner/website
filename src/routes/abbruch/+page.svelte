@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" style={"height:100vh"}>
     <h1>
         Beazahlvorgang abgebrochen!
     </h1>
@@ -8,6 +8,5 @@
         Fragen gibt, können Sie uns gerne eine Mail schreiben.<br>
         Wir melden uns dann schnellstmöglich bei Ihnen.
     </p>
-    <a href=".">Zurück zur Homepage</a>
 </div>
 
