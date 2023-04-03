@@ -4,9 +4,9 @@ export let kurse = [
         "preis": 620,
         "name": "Programmieren für Einsteiger",
         "rows": [        
-            ["Datentypen", "Klassen", "Nebenläufigkeit"],
-            ["Funktionen", "Fehlersuche", "Softskills"],
-            ["Schleifen", "Logging", "Projekt"],
+            ["Datenstrukturen", "Objektorientierte Programmierung", "Nebenläufigkeit"],
+            ["Funktionen", "Fehlersuche und Logging", "Softskills"],
+            ["Schleifen", "Eingabe und Ausgabe", "Projekt"],
         ],
         "beschreibung": "\
         In diesem Kurs werden Sie zum Programmierer!\
@@ -47,7 +47,7 @@ export let kurse = [
         ],
         "beschreibung": "\
         Dieser Kurs ist Ihre Einstieg in Data Science!\
-        Zu Beginn des Kurses werden wir herausarbeiten, was Data Science eigentlich ist und mithin zu verstehen,\
+        Zu Beginn des Kurses werden wir herausarbeiten, was Data Science eigentlich ist und mithin verstehen,\
         was Data Science von anderen Bereichen abgrenzt. Im weiteren werden wir die mathematischen \
         Grundlagen aufarbeiten die ein Data Scientist beherrschen sollte und für diese eine gewisse Intuition aufbauen.\
         Außerdem werden wir in versch. Bereiche des Maschinelle Lernens schnuppern, da maschinelles Lernen und \

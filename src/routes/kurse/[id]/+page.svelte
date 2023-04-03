@@ -6,20 +6,23 @@
 
 
 
-<div class="container">
+<div class="container" style={"margin-top: 80px"}>
 
     
     <!-- <a style={"background-color: #546e7a; border:none"} role="button" href=".">Kursplan (PDF)</a> -->
     
     <hgroup>
         <h1>{ data.name }</h1>
-        <h2>{ data.preis }€<br>
+        <h2>{ data.preis }€ für den Kurs vor Ort, detailliertes persönliches Feedback und Rabatte auf weitere Kurse<br>
       </h2>
     </hgroup>
     <p>{ data.beschreibung }</p>
     <hgroup>
         <h2>Kursübersicht</h2>
-        <h3>Hier sehen Sie die wichtigesten Bausteine des Kurses. Eine detailliertere Beschreibung finden Sie im Kurs-PDF<br>
+        <h3>
+            Hier sehen Sie die wichtigesten Bausteine des Kurses. Eine detailliertere Beschreibung finden Sie in der
+            <a href=".">Kursbeschreibung (PDF)</a>
+            <br>
       </h3>
     </hgroup>
   <table>
