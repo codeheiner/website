@@ -10,11 +10,11 @@ export let kurse = [
         ],
         "beschreibung": "\
         In diesem Kurs werden Sie zum Programmierer!\
-        Klar, in einem dreitägigen Kurs kann man nicht zum Profi werden,\
+        Klar, nach einem drei-tägigen Kurs ist man kein Profi,\
         aber wir geben unser Bestes um Ihnen den leichtesten Start zu ermöglichen.\
         Nach Abschluss des Kurses werden Sie prinzipiell in der Lage sein beliebige\
-        Programme zu schreiben, zu ermitteln was eine sinnvolle und effiziente Architektur \
-        für Ihr Projekt ist und was guter Code leistet.\
+        Programme in Python zu schreiben, zu ermitteln was eine sinnvolle und effiziente Architektur \
+        für Ihr Projekt ist und was guten Code auszeichnet.\
         "},
     
     {
@@ -28,11 +28,11 @@ export let kurse = [
         ],
         "beschreibung": "\
         Den Kurs 'Grundlagen des Maschinellen Lernens' beginnen wir mit einem Überblick\
-        über die verschiedenen Bereiche dieses spannenden Feldes und motivieren die \
-        verschiedenen Ansätze des Maschinellen Lernens anhand anschaulicher Beispiele.\
+        über die verschiedenen Bereiche dieses spannenden Feldes, geben Beispiele und motivieren damit die \
+        verschiedenen Ansätze für Maschinelles Lernen.\
         Dann steigen wir mit den wichtigsten mathematischen Grundlagen in die Theorie ein, \
         lernen die wichtigsten Python-Bibliotheken kennen und bearbeiten danach gemeinsam\
-        einige Miniprojekte aus jeweils einem Teilbereich des ML. Der Kurs schließt \
+        einige Aufgaben aus jeweils einem Teilbereich des ML. Der Kurs schließt \
         mit einem Projekt ab, welches in Partnerarbeit bearbeitet wird.\
         "},
     

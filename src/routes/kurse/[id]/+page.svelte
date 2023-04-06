@@ -13,22 +13,21 @@
     
     <hgroup>
         <h1>{ data.name }</h1>
-        <h2>{ data.preis }€ für den Kurs vor Ort, detailliertes persönliches Feedback und Rabatte auf weitere Kurse<br>
+        <h2>Preis: { data.preis } €<br>
       </h2>
     </hgroup>
     <p>{ data.beschreibung }</p>
     <hgroup>
         <h2>Kursübersicht</h2>
         <h3>
-            Hier sehen Sie die wichtigesten Bausteine des Kurses. Eine detailliertere Beschreibung finden Sie in der
-            <a href=".">Kursbeschreibung (PDF)</a>
+            Hier sehen Sie die wichtigesten Bausteine des Kurses. 
             <br>
       </h3>
     </hgroup>
-  <table>
+
+  <table role="grid">
     <thead>
       <tr>
-        <th scope="col">Modul</th>
         <th scope="col">Freitag</th>
         <th scope="col">Samstag</th>
         <th scope="col">So</th>
@@ -37,7 +36,6 @@
     <tbody>
         {#each data.rows as rows, i}
             <tr>
-                <td>{ i +1 }</td>
                 {#each rows as row}
                     <td>{ row }</td>
                 {/each}
@@ -59,21 +57,18 @@
     Vollstädnigen Plan runterladen (PDF)
   </a> -->
 
-
+  <hgroup>
+    <h2>Buchung</h2>
+    <h3>Wählen Sie aus mehreren sicheren Bezahlmethoden<br>
+  </h3>
+</hgroup>
     <form action="?/buchung" method="POST">
 
-        <!-- <label for="kurs">Kurs</label>
-
-        <select id="kurs" name="kurs" required>
-          <option>{ data.name }</option>
-          <option>Python DevOps</option>
-        </select> -->
-
-        <!-- <label for="date">Wählen Sie ein Kursdatum
+        <label for="date">Kursdatum
           <input type="date" id="date" name="date">
-        </label> -->
+        </label>
               
         <button type="submit" id="checkout-button">JETZT BUCHEN!</button>
 
-      </form>
+    </form>
 </div>
