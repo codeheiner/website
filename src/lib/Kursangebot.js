@@ -42,7 +42,7 @@ export let kurse = [
         "name": "Einführung in Data Science mit Python", 
         "rows": [        
             ["Was ist Data Science?", "Daten sammeln und bereinigen", "Maschinelles Lernen"],
-            ["Mathematische Grundlagen", "Datenbanken / Datalakes", "Projekt"],
+            ["Mathematische Grundlagen", "Daten speichern", "Projekt"],
             ["Python Grundlagen", "Visualisierung", "Evaluation"],
         ],
         "beschreibung": "\
