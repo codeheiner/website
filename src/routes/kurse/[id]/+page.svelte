@@ -16,6 +16,7 @@
         <h2>Preis: { data.preis } €<br>
       </h2>
     </hgroup>
+    <mark></mark>
     <p>{ data.beschreibung }</p>
     <hgroup>
         <h2>Kursübersicht</h2>
@@ -57,18 +58,21 @@
     Vollstädnigen Plan runterladen (PDF)
   </a> -->
 
-  <hgroup>
+<hgroup>
     <h2>Buchung</h2>
-    <h3>Wählen Sie aus mehreren sicheren Bezahlmethoden<br>
-  </h3>
+    <h3>
+        Wählen Sie aus mehreren sicheren Bezahlmethoden<br>
+    </h3>
 </hgroup>
+
     <form action="?/buchung" method="POST">
 
-        <label for="date">Kursdatum
-          <input type="date" id="date" name="date">
+        <label for="kurs_datum">Kurs-Start
+          <input type="date" id="kurs_datum" name="kurs_datum" min={ data.start } step={ data.turnus }>
         </label>
               
         <button type="submit" id="checkout-button">JETZT BUCHEN!</button>
 
     </form>
+
 </div>

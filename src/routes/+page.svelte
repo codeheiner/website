@@ -155,5 +155,13 @@
       </article>
     </div>
   </section> -->
+  <footer class="container">
+    <nav>
+        <ul>
+            <li><a href="./impressum">Impressum</a></li>
+            <!-- <li><a href="./jobs">Jobs</a></li> -->
+        </ul>
+    </nav>
+</footer>
 
   <!-- Für fast die Hälfte der befragten Firmen stellen Kosten (48 %) und Zeitmangel (46 %) die größten Hürden bei der Digitalisierung ihres Unternehmens dar, gefolgt von Unsicherheit bezüglich Sicherheit und Datenschutz (39 %). Für mehr als ein Drittel (37 %) der Befragten ist mangelndes Know-how die größte Digitalisierungs-Bremse, bei knapp einem Viertel (24 %) scheitert es am Interesse. -->

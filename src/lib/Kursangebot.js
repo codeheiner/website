@@ -1,5 +1,7 @@
 export let kurse = [
     {
+        "start": "2023-05-05",
+        "turnus": 7,
         "price": "price_1MnOIbDlv47dRGNIEoIojwrw", 
         "preis": 620,
         "name": "Programmieren für Einsteiger",
@@ -18,6 +20,8 @@ export let kurse = [
         "},
     
     {
+        "start": "2023-05-12",
+        "turnus": 7,
         "price": "price_1MqwM4Dlv47dRGNIHsJ3ANhk", 
         "preis": 900,
         "name": "Grundlagen des Maschinellen Lernens",
@@ -37,6 +41,8 @@ export let kurse = [
         "},
     
     {
+        "start": "2023-05-19",
+        "turnus": 14,
         "price": "price_1MrlqeDlv47dRGNI8ZzF0MOC", 
         "preis": 900,
         "name": "Einführung in Data Science mit Python", 
@@ -55,5 +61,13 @@ export let kurse = [
         Wissen nutzen, um von höherer Warte aus einen Überblick über die bestehende Landschaft von vorgefertigten Lösungen\
         und Tools zu bekommen, die Data Scientists im Alltag nutzen, um sich das Leben leichter zu machen. Speziell\
         diese letzte Station ist wichtig, da die Fülle an Tools auf dem Markt gigantische Ausmaße angenommen hat.\
-        "}
+        "},
+
+    // {
+    //     "price": "price_1MuYsODlv47dRGNIeEXUVeUB",
+    //     "preis": 1,
+    //     "name": "Test-Kurs",
+    //     "rows": [["test", "test", "test"],["test", "test", "test"],["test", "test", "test"]],
+    //     "beschreibung": "Testbeschreibung"
+    // }
 ]

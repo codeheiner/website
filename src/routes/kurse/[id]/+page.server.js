@@ -11,12 +11,17 @@ export function load({ params }) {
 
 export const actions = {
 
-    buchung: async ({ params }) => {
+    buchung: async ({ params, request }) => {
+
+        const data = await request.formData();
+        const start_date = data.get("kurs_datum")
+        console.log(start_date)
         // @ts-ignore
         var stripe = Stripe(PROD_API_KEY)
 
         const session = await stripe.checkout.sessions.create({
             line_items: [{ price: kurse[params.id]["price"], quantity: 1}],
+            metadata: {'metakey': 'metavalue'},
             mode: "payment",
             success_url: "http://www.codeheiner.de/bezahlen",
             cancel_url: "http://www.codeheiner.de/abbruch"
