@@ -16,7 +16,7 @@
         <h2>Preis: { data.preis } €<br>
       </h2>
     </hgroup>
-    <mark></mark>
+    <!-- <mark></mark> -->
     <p>{ data.beschreibung }</p>
     <hgroup>
         <h2>Kursübersicht</h2>
@@ -29,7 +29,6 @@
   <table role="grid">
     <thead>
       <tr>
-        <th scope="col">Freitag</th>
         <th scope="col">Samstag</th>
         <th scope="col">So</th>
       </tr>

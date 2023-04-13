@@ -6,9 +6,11 @@ export let kurse = [
         "preis": 620,
         "name": "Programmieren für Einsteiger",
         "rows": [        
-            ["Datenstrukturen", "Objektorientierte Programmierung", "Nebenläufigkeit"],
-            ["Funktionen", "Fehlersuche und Logging", "Softskills"],
-            ["Schleifen", "Eingabe und Ausgabe", "Projekt"],
+            ["Datenstrukturen", "Fehlersuche und Logging"],
+            ["Funktionen", "Eingabe und Ausgabe"],
+            ["Schleifen",  "Nebenläufigkeit"],
+            ["Objektorientierte Programmierung", "Softskills"],
+            ["Fehlersuche und Logging", "Projekt"],
         ],
         "beschreibung": "\
         In diesem Kurs werden Sie zum Programmierer!\
@@ -26,9 +28,13 @@ export let kurse = [
         "preis": 900,
         "name": "Grundlagen des Maschinellen Lernens",
         "rows": [        
-            ["Was ist ML?", "Regression", "Neuronale Netze und Deep Learning"],
-            ["Mathematische Grundlagen", "Naive Bayes", "Reinforcement Learning"],
-            ["relevante Python Bibliotheken", "Support Vector Machines", "Projekt"],
+            ["Was ist ML?", "Clustering"],
+            ["Datenvorbereitung", "Neuronale Netze"],
+            ["Regression", "Deeplearning"],
+            ["Pause", "Pause"],
+            ["Klassifikation", "Deployment"],
+            ["Model-Evaluation", "Projekt"],
+            ["Übung", "Projekt"]
         ],
         "beschreibung": "\
         Den Kurs 'Grundlagen des Maschinellen Lernens' beginnen wir mit einem Überblick\
@@ -46,10 +52,14 @@ export let kurse = [
         "price": "price_1MrlqeDlv47dRGNI8ZzF0MOC", 
         "preis": 900,
         "name": "Einführung in Data Science mit Python", 
-        "rows": [        
-            ["Was ist Data Science?", "Daten sammeln und bereinigen", "Maschinelles Lernen"],
-            ["Mathematische Grundlagen", "Daten speichern", "Projekt"],
-            ["Python Grundlagen", "Visualisierung", "Evaluation"],
+        "rows": [   
+            ['Introduction to Data Science', 'Statistical Inference'],
+            ['Python Basics', 'Bayesian Data Analysis'],
+            ['Data Sources and Acquisition', 'Time Series Analysis'],
+            ["Pause", "Pause"],
+            ['Exploratory Data Analysis', 'Network Analysis'],
+            ['Data Preprocessing', 'Text Mining'],
+            ['Data Visualization Best Practices', 'Ethics and Privacy in Data Science']
         ],
         "beschreibung": "\
         Dieser Kurs ist Ihre Einstieg in Data Science!\
