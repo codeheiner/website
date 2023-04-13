@@ -1,31 +1,32 @@
 export let kurse = [
     {
-        "start": "2023-05-05",
+        "start_dates": ["16.04.2023", "16.04.2023", "16.04.2023", "16.04.2023"],
         "turnus": 7,
         "price": "price_1MnOIbDlv47dRGNIEoIojwrw", 
         "preis": 620,
+        "studi_preis": 500,
         "name": "Programmieren für Einsteiger",
         "rows": [        
-            ["Datenstrukturen", "Fehlersuche und Logging"],
-            ["Funktionen", "Eingabe und Ausgabe"],
+            ["Datenstrukturen", "Eingabe und Ausgabe"],
+            ["Funktionen", "Objektorientierte Programmierung"],
             ["Schleifen",  "Nebenläufigkeit"],
-            ["Objektorientierte Programmierung", "Softskills"],
-            ["Fehlersuche und Logging", "Projekt"],
+            ["Mini-Projekt", "Mini-Projekt"],
         ],
         "beschreibung": "\
         In diesem Kurs werden Sie zum Programmierer!\
-        Klar, nach einem drei-tägigen Kurs ist man kein Profi,\
+        Klar, nach einem Wochenende ist man moch kein Profi,\
         aber wir geben unser Bestes um Ihnen den leichtesten Start zu ermöglichen.\
         Nach Abschluss des Kurses werden Sie prinzipiell in der Lage sein beliebige\
-        Programme in Python zu schreiben, zu ermitteln was eine sinnvolle und effiziente Architektur \
-        für Ihr Projekt ist und was guten Code auszeichnet.\
-        "},
+        Programme in Python zu schreiben,\
+        Code kritisch zu beurteilen und sich selbständig auf dem Gebiet der Programmierung weiterzuentwickeln."
+    },
     
     {
-        "start": "2023-05-12",
+        "start_dates": ["16.04.2023", "16.04.2023", "16.04.2023", "16.04.2023"],
         "turnus": 7,
         "price": "price_1MqwM4Dlv47dRGNIHsJ3ANhk", 
         "preis": 900,
+        "studi_preis": 500,
         "name": "Grundlagen des Maschinellen Lernens",
         "rows": [        
             ["Was ist ML?", "Clustering"],
@@ -37,20 +38,22 @@ export let kurse = [
             ["Übung", "Projekt"]
         ],
         "beschreibung": "\
-        Den Kurs 'Grundlagen des Maschinellen Lernens' beginnen wir mit einem Überblick\
-        über die verschiedenen Bereiche dieses spannenden Feldes, geben Beispiele und motivieren damit die \
-        verschiedenen Ansätze für Maschinelles Lernen.\
-        Dann steigen wir mit den wichtigsten mathematischen Grundlagen in die Theorie ein, \
-        lernen die wichtigsten Python-Bibliotheken kennen und bearbeiten danach gemeinsam\
-        einige Aufgaben aus jeweils einem Teilbereich des ML. Der Kurs schließt \
-        mit einem Projekt ab, welches in Partnerarbeit bearbeitet wird.\
+        In diesem intensiven Machine-Learning-Kurs \
+        werden Sie die Grundlagen und fortgeschrittenen Techniken \
+        des Machine Learning kennenlernen. Wir werden uns mit Grundlagen der \
+        Datenverarbeitung, Regression, Klassifikation, Clustering, \
+        Neuralen Netzen und Deep Learning befassen. Aber das ist nicht alles. \
+        Das Gelernte werden Sie in praktische Erfahrungen umsetzen, indem Sie Übungen bearbeiten und \
+        den Kurs mit einem Projekt abschließen. \
+        Wir freuen uns darauf, Ihnen einen einfachen Start in Machine Learning zu ermöglichen!\
         "},
     
     {
-        "start": "2023-05-19",
+        "start_dates": ["16.04.2023", "16.04.2023", "16.04.2023", "16.04.2023"],
         "turnus": 14,
         "price": "price_1MrlqeDlv47dRGNI8ZzF0MOC", 
         "preis": 900,
+        "studi_preis": 500,
         "name": "Einführung in Data Science mit Python", 
         "rows": [   
             ['Introduction to Data Science', 'Statistical Inference'],

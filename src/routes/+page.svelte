@@ -12,7 +12,7 @@
     </div> -->
     <nav class="container-fluid">
       <ul>
-        <li><a href="./" class="contrast"><strong>CodeHeiner 💻</strong></a></li>
+        <li><a href="./" class="contrast"><strong>CodeHeiner</strong></a></li>
       </ul>
 
       <ul>
@@ -48,7 +48,7 @@
         <h2>für alle vom Anfänger bis zum erfahrenen Praktiker<br>
       </h2>
       </hgroup>
-      <p><a href="kursübersicht.pdf" role="button" download>Kursangebot als PDF downloaden</a></p>
+      <p><a href="kursübersicht.pdf" role="button" class="secondary" download>Kursangebot als PDF downloaden</a></p>
     </header>
 
   </div>

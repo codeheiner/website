@@ -6,7 +6,7 @@
 
 <nav class="container-fluid" style={"background-color: #546e7a"}>
     <ul>
-      <li><a href="../" class="contrast"><strong>CodeHeiner 💻</strong></a></li>
+      <li><a href="../" class="contrast"><strong>CodeHeiner</strong></a></li>
     </ul>
 
     <ul>

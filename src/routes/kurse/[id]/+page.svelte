@@ -13,7 +13,7 @@
     
     <hgroup>
         <h1>{ data.name }</h1>
-        <h2>Preis: { data.preis } €<br>
+        <h2>Preis: { data.preis } | Azubis & Studenten: { data.studi_preis }€<br>
       </h2>
     </hgroup>
     <!-- <mark></mark> -->
@@ -57,20 +57,36 @@
     Vollstädnigen Plan runterladen (PDF)
   </a> -->
 
-<hgroup>
-    <h2>Buchung</h2>
-    <h3>
-        Wählen Sie aus mehreren sicheren Bezahlmethoden<br>
-    </h3>
-</hgroup>
+    <hgroup>
+        <h2>Buchung</h2>
+        <h3>
+            Wählen Sie ein Datum aus (Kursstart)<br>
+        </h3>
+    </hgroup>
+
 
     <form action="?/buchung" method="POST">
 
-        <label for="kurs_datum">Kurs-Start
+        <fieldset class="grid">
+          
+          {#each data.start_dates as date, i}
+          <article style={"display: flex; flex-direction: row; justify-content: space-between; align-items: center"}>
+            
+            <label for={ i }>
+              { date }
+            </label> 
+            
+            <input type="radio" id={ i } name="kurs_datum" value={ date }>
+          </article>
+          {/each}
+
+        </fieldset>
+    
+        <!-- <label for="kurs_datum">Kurs-Start
           <input type="date" id="kurs_datum" name="kurs_datum" min={ data.start } step={ data.turnus }>
-        </label>
+        </label> -->
               
-        <button type="submit" id="checkout-button">JETZT BUCHEN!</button>
+        <button type="submit" class="primary" id="checkout-button">JETZT BUCHEN!</button>
 
     </form>
 
