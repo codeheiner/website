@@ -4,7 +4,9 @@
 
 </script>
 
-<nav class="container-fluid" style={"background-color: #546e7a"}>
+<nav 
+class="container-fluid" 
+>
     <ul>
       <li><a href="../" class="contrast"><strong>CodeHeiner</strong></a></li>
     </ul>
@@ -22,6 +24,32 @@
           </ul>
         </details>
       </li>
+
+      <!-- <li>
+        <details role="list" dir="rtl">
+          <summary aria-haspopup="listbox" role="link" class="contrast">Langzeit-Lehrgänge</summary>
+          <ul role="listbox">
+
+            {#each kurse as kurs, i}
+              <li><a href="/kurse/{ i }" data-theme-switcher="auto">{ kurs.name }</a></li>
+            {/each}
+            
+          </ul>
+        </details>
+      </li>
+
+      <li>
+        <details role="list" dir="rtl">
+          <summary aria-haspopup="listbox" role="link" class="contrast">Schulungen für Unternehmen</summary>
+          <ul role="listbox">
+
+            {#each kurse as kurs, i}
+              <li><a href="/kurse/{ i }" data-theme-switcher="auto">{ kurs.name }</a></li>
+            {/each}
+            
+          </ul>
+        </details>
+      </li> -->
 
       <!-- <li>
         <details role="list" dir="rtl">

@@ -1,7 +1,6 @@
 export let kurse = [
     {
-        "start_dates": ["16.04.2023", "16.04.2023", "16.04.2023", "16.04.2023"],
-        "turnus": 7,
+        "start_dates": ["06.05.2023", "13.05.2023", "20.05.2023", "27.05.2023"],
         "price": "price_1MnOIbDlv47dRGNIEoIojwrw", 
         "preis": 620,
         "studi_preis": 500,
@@ -22,8 +21,8 @@ export let kurse = [
     },
     
     {
-        "start_dates": ["16.04.2023", "16.04.2023", "16.04.2023", "16.04.2023"],
-        "turnus": 7,
+        "disclaimer": "Wegen großer Nachfrage sind momentan nur noch Plätze im Juni frei.",
+        "start_dates": ["03.06.2023", "10.06.2023", "17.06.2023", "24.06.2023"],
         "price": "price_1MqwM4Dlv47dRGNIHsJ3ANhk", 
         "preis": 900,
         "studi_preis": 500,
@@ -50,7 +49,6 @@ export let kurse = [
     
     {
         "start_dates": ["16.04.2023", "16.04.2023", "16.04.2023", "16.04.2023"],
-        "turnus": 14,
         "price": "price_1MrlqeDlv47dRGNI8ZzF0MOC", 
         "preis": 900,
         "studi_preis": 500,
@@ -76,11 +74,13 @@ export let kurse = [
         diese letzte Station ist wichtig, da die Fülle an Tools auf dem Markt gigantische Ausmaße angenommen hat.\
         "},
 
-    // {
-    //     "price": "price_1MuYsODlv47dRGNIeEXUVeUB",
-    //     "preis": 1,
-    //     "name": "Test-Kurs",
-    //     "rows": [["test", "test", "test"],["test", "test", "test"],["test", "test", "test"]],
-    //     "beschreibung": "Testbeschreibung"
-    // }
+    {
+        "start_dates": ["16.04.2023", "16.04.2023", "16.04.2023", "16.04.2023"],
+        "price": "price_1MuYsODlv47dRGNIeEXUVeUB",
+        "preis": 1,
+        "studi_preis": 500,
+        "name": "Test-Kurs",
+        "rows": [["test", "test", "test"],["test", "test", "test"],["test", "test", "test"]],
+        "beschreibung": "Testbeschreibung"
+    }
 ]

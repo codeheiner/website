@@ -13,10 +13,12 @@
     
     <hgroup>
         <h1>{ data.name }</h1>
-        <h2>Preis: { data.preis } | Azubis & Studenten: { data.studi_preis }€<br>
+        <h2>Preis: { data.preis }€ | Azubis & Studenten: { data.studi_preis }€<br>
       </h2>
     </hgroup>
-    <!-- <mark></mark> -->
+    {#if data.disclaimer}
+      <mark>{ data.disclaimer } </mark><br><br>
+    {/if}
     <p>{ data.beschreibung }</p>
     <hgroup>
         <h2>Kursübersicht</h2>
@@ -70,14 +72,21 @@
         <fieldset class="grid">
           
           {#each data.start_dates as date, i}
-          <article style={"display: flex; flex-direction: row; justify-content: space-between; align-items: center"}>
-            
-            <label for={ i }>
-              { date }
-            </label> 
-            
-            <input type="radio" id={ i } name="kurs_datum" value={ date }>
-          </article>
+
+            <article style={"display: flex; flex-direction: column; "}>
+
+              <div style={"display: flex; flex-direction: row; justify-content: space-between; align-items: center"}>
+                
+                <label for={ i }>
+                  { date }
+                </label> 
+                
+                <input type="radio" id={ i } name="kurs_datum" value={ date }>
+
+              </div>
+
+            </article>
+
           {/each}
 
         </fieldset>
