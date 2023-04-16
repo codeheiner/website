@@ -48,7 +48,7 @@
         <h2>für alle vom Anfänger bis zum erfahrenen Praktiker<br>
       </h2>
       </hgroup>
-      <p><a href="kursübersicht.pdf" role="button" class="secondary" download>Kursangebot als PDF downloaden</a></p>
+      <p><a href="kursübersicht.pdf" role="button" class="primary" download>Kursangebot als PDF downloaden</a></p>
     </header>
 
   </div>

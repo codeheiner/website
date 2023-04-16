@@ -2,9 +2,9 @@
     import { kurse } from "$lib/Kursangebot";
 </script>
 
-<nav class="container-fluid" style={"background-color: #546e7a"}>
+<nav class="container-fluid">
     <ul>
-      <li><a href="../" class="contrast"><strong>CodeHeiner 💻</strong></a></li>
+      <li><a href="../" class="contrast"><strong>CodeHeiner</strong></a></li>
     </ul>
 
     <ul>
@@ -37,12 +37,14 @@
 
 <div class="container" style={"margin-top: 80px"}>
     <h1>Zahlung erfolgt!</h1>
-    <p>Vielen Dank für Ihr Vertrauen. Wir freuen uns, Sie bald bei uns
-        im Seminar begrüßen zu dürfen.<br>Sie sollten eine Email mit der
-        Quittung erhalten haben; schauen Sie doch einmal in Ihr
-        elektronisches Postfach! In der Rechnung finden Sie zudem die
-        Kursdaten. Sollten Sie Fragen haben, können Sie uns jederzeit
-        per Mail oder telefonisch erreichen.<br>Bis bald!
+    <p>
+      Vielen Dank für Ihr Vertrauen! <br>
+      Wir freuen uns, Sie bald bei uns
+      im Kurs begrüßen zu dürfen.<br>
+      Ihre Quittung, in der noch einmal die wichtigsten Eckdaten zusammengefasst sind,
+      haben wir Ihnen per Mail geschickt.<br>
+      Falls Sie noch Fragen haben, dürfen Sie uns gerne über <a href="mailto:info@codeheiner.de">info@codeheiner.de</a>
+      kontaktieren. 
     </p>
-    <a href=".">Zurück zur Homepage</a>
+    <a role="button" class="secondary outline" href=".">Zurück zur Homepage</a>
 </div>
