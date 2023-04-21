@@ -21,7 +21,6 @@ export let kurse = [
     },
     
     {
-        "disclaimer": "Wegen großer Nachfrage sind momentan nur noch Plätze im Juni frei.",
         "start_dates": ["03.06.2023", "10.06.2023", "17.06.2023", "24.06.2023"],
         "price": "price_1MqwM4Dlv47dRGNIHsJ3ANhk", 
         "preis": 900,
