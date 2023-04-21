@@ -22,6 +22,27 @@ export const actions = {
         const session = await stripe.checkout.sessions.create({
             line_items: [{ price: kurse[params.id]["price"], quantity: 1}],
             metadata: {'datum': start_date},
+            custom_fields: [
+                {
+                    key: "Vorname",
+                    label: {
+                        custom: "Vorname",
+                        type: "custom"
+                    },
+                    type: "text",
+        
+                },
+        
+                {
+                    key: "Nachname",
+                    label: {
+                        custom: "Nachname",
+                        type: "custom"
+                    },
+                    type: "text",
+        
+                },
+            ],
             mode: "payment",
             success_url: "http://www.codeheiner.de/bezahlen",
             cancel_url: "http://www.codeheiner.de/abbruch"
