@@ -12,14 +12,14 @@
     <!-- <a style={"background-color: #546e7a; border:none"} role="button" href=".">Kursplan (PDF)</a> -->
     
     <hgroup>
-        <h1>{ data.name }</h1>
-        <h2>Preis: { data.preis }€ | Azubis & Studenten: { data.studi_preis }€<br>
+        <h1>{ data.kurse.name }</h1>
+        <h2>Preis: { data.kurse.preis }€ | Azubis & Studenten: { data.kurse.studi_preis }€<br>
       </h2>
     </hgroup>
-    {#if data.disclaimer}
-      <mark>{ data.disclaimer } </mark><br><br>
+    {#if data.kurse.disclaimer}
+      <mark>{ data.kurse.disclaimer } </mark><br><br>
     {/if}
-    <p>{ data.beschreibung }</p>
+    <p>{ data.kurse.beschreibung }</p>
     <hgroup>
         <h2>Kursübersicht</h2>
         <h3>
@@ -36,7 +36,7 @@
       </tr>
     </thead>
     <tbody>
-        {#each data.rows as rows, i}
+        {#each data.kurse.rows as rows, i}
             <tr>
                 {#each rows as row}
                     <td>{ row }</td>
@@ -66,19 +66,18 @@
         </h3>
     </hgroup>
 
-
     <form action="?/buchung" method="POST">
 
         <fieldset class="grid">
           
-          {#each data.start_dates as date, i}
+          {#each data.course_dates.slice(1, 5) as date, i}
 
             <article style={"display: flex; flex-direction: column; "}>
 
               <div style={"display: flex; flex-direction: row; justify-content: space-between; align-items: center"}>
                 
                 <label for={ i }>
-                  { date }
+                  { date.date }
                 </label> 
                 
                 <input type="radio" id={ i } name="kurs_datum" value={ date }>

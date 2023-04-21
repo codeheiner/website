@@ -2,11 +2,24 @@ import { redirect } from '@sveltejs/kit';
 import { PROD_API_KEY, TEST_API_KEY } from '$env/static/private';
 import Stripe from 'stripe';
 import { kurse } from '$lib/Kursangebot';
+import { METHODS } from 'http';
 
 
-export function load({ params }) {
+export async function load({ params }) {
+
     const kurs = params.id
-    return  kurse[kurs]
+    const course_data = kurse[kurs]
+
+    const res = await fetch(
+        "https://codeheiner-backend-jm6rnrv2o-codeheiner.vercel.app/dates/" + course_data.price  
+    )
+
+    const course_dates = await res.json()
+
+    return {
+        kurse: course_data,
+        course_dates: course_dates
+    }
 }
 
 export const actions = {
