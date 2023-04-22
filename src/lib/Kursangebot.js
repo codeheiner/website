@@ -73,13 +73,13 @@ export let kurse = [
         diese letzte Station ist wichtig, da die Fülle an Tools auf dem Markt gigantische Ausmaße angenommen hat.\
         "},
 
-    {
-        "start_dates": ["16.04.2023", "16.04.2023", "16.04.2023", "16.04.2023"],
-        "price": "price_1MuYsODlv47dRGNIeEXUVeUB",
-        "preis": 1,
-        "studi_preis": 500,
-        "name": "Test-Kurs",
-        "rows": [["test", "test", "test"],["test", "test", "test"],["test", "test", "test"]],
-        "beschreibung": "Testbeschreibung"
-    }
+    // {
+    //     "start_dates": ["16.04.2023", "16.04.2023", "16.04.2023", "16.04.2023"],
+    //     "price": "price_1MuYsODlv47dRGNIeEXUVeUB",
+    //     "preis": 1,
+    //     "studi_preis": 500,
+    //     "name": "Test-Kurs",
+    //     "rows": [["test", "test", "test"],["test", "test", "test"],["test", "test", "test"]],
+    //     "beschreibung": "Testbeschreibung"
+    // }
 ]
