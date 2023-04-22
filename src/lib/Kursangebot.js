@@ -66,7 +66,7 @@ export let kurse = [
         Zu Beginn des Kurses werden wir herausarbeiten, was Data Science eigentlich ist und mithin verstehen,\
         was Data Science von anderen Bereichen abgrenzt. Im weiteren werden wir die mathematischen \
         Grundlagen aufarbeiten die ein Data Scientist beherrschen sollte und für diese eine gewisse Intuition aufbauen.\
-        Außerdem werden wir in versch. Bereiche des Maschinelle Lernens schnuppern, da maschinelles Lernen und \
+        Außerdem werden wir in verschiedene Bereiche des Maschinelle Lernens schnuppern, da maschinelles Lernen und \
         Data Science in einem gewissen Maße in einander übergehen. Schlussendlich werden wir unser neu gewonnenes\
         Wissen nutzen, um von höherer Warte aus einen Überblick über die bestehende Landschaft von vorgefertigten Lösungen\
         und Tools zu bekommen, die Data Scientists im Alltag nutzen, um sich das Leben leichter zu machen. Speziell\

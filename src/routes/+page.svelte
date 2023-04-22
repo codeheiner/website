@@ -42,10 +42,10 @@
 
     </nav>
 
-    <header class="container">
+    <header class="container" style={"height: 80vh"}>
       <hgroup>
-        <h1>Programmierkurse in Darmstadt</h1>
-        <h2>für alle vom Anfänger bis zum erfahrenen Praktiker<br>
+        <h1>Schulungen für die IT-Jobs von Morgen!</h1>
+        <h2>Die KIs sind dir auf den Fersen. Pass dich an und lerne heute worauf es morgen ankommt.<br>
       </h2>
       </hgroup>
       <p><a href="kursübersicht.pdf" role="button" class="primary" download>Kursangebot als PDF downloaden</a></p>
@@ -54,7 +54,7 @@
   </div>
 
   <!-- Main -->
-  <main class="container" style={"margin-top: 80px"}>
+  <!-- <main class="container" style={"margin-top: 80px"}>
     <div class="grid">
 
       <section style={"text-align:justify"}>
@@ -117,15 +117,16 @@
           <a href="." >Ihr Equipment</a><br>
           <small>Wir stellen für die Kursdauer ein Lenovo Thinkpad.</small>
         </p>
-        <!-- <a href="." aria-label="Example" ><img src="matthew-hamilton-Ru3Ap8TNcsk-unsplash-1500-750.jpg" alt="Architecture"></a>
+        <a href="." aria-label="Example" ><img src="matthew-hamilton-Ru3Ap8TNcsk-unsplash-1500-750.jpg" alt="Architecture"></a>
         <p>
           <a href="." >So sehen zufriedene Teilnehmer aus!</a><br>
           <small>Wir sind zufrieden wenn Sie es sind!</small>
-        </p> -->
+        </p>
       </aside>
 
     </div>
-  </main><!-- ./ Main -->
+  </main> -->
+  <!-- ./ Main -->
 
   <!-- <section id="buy" aria-label="Subscribe example">
     <div class="container">
@@ -155,13 +156,14 @@
       </article>
     </div>
   </section> -->
-  <footer class="container">
-    <nav>
-        <ul>
-            <li><a href="./impressum">Impressum</a></li>
-            <!-- <li><a href="./jobs">Jobs</a></li> -->
-        </ul>
-    </nav>
+
+<footer class="container">
+  <nav>
+      <ul>
+          <li><a href="./impressum">Impressum</a></li>
+          <!-- <li><a href="./jobs">Jobs</a></li> -->
+      </ul>
+  </nav>
 </footer>
 
   <!-- Für fast die Hälfte der befragten Firmen stellen Kosten (48 %) und Zeitmangel (46 %) die größten Hürden bei der Digitalisierung ihres Unternehmens dar, gefolgt von Unsicherheit bezüglich Sicherheit und Datenschutz (39 %). Für mehr als ein Drittel (37 %) der Befragten ist mangelndes Know-how die größte Digitalisierungs-Bremse, bei knapp einem Viertel (24 %) scheitert es am Interesse. -->
