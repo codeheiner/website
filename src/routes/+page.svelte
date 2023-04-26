@@ -18,7 +18,7 @@
       <ul>
         <li>
           <details role="list" dir="rtl">
-            <summary aria-haspopup="listbox" role="link" class="contrast">Kursangebot</summary>
+            <summary aria-haspopup="listbox" role="link" class="contrast">Intensiv-Kurse</summary>
             <ul role="listbox">
 
               {#each kurse as kurs, i}
@@ -44,8 +44,8 @@
 
     <header class="container" style={"height: 80vh"}>
       <hgroup>
-        <h1>Schulungen für die IT-Jobs von Morgen!</h1>
-        <h2>Die KIs sind Ihnen auf den Fersen. Passen Sie sich an und lerne heute worauf es morgen ankommt.<br>
+        <h1>Jetzt in Darmstadt: <br>Schulungen für die IT-Jobs von Morgen</h1>
+        <h2>Die KIs sind Ihnen auf den Fersen. Lernen Sie heute worauf es morgen ankommt.<br>
       </h2>
       </hgroup>
       <p><a href="kursübersicht.pdf" role="button" class="primary" download>Kursangebot als PDF downloaden</a></p>

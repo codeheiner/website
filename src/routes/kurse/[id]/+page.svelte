@@ -70,7 +70,7 @@
 
         <fieldset class="grid">
           
-          {#each data.course_dates.slice(1, 5) as date, i}
+          {#each data.course_dates.slice(2, 6) as date, i}
 
             <article style={"display: flex; flex-direction: column; "}>
 

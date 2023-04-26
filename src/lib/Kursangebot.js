@@ -8,6 +8,7 @@ export let kurse = [
         "rows": [        
             ["Datenstrukturen", "Eingabe und Ausgabe"],
             ["Funktionen", "Objektorientierte Programmierung"],
+            ["Pause", "Pause"],
             ["Schleifen",  "Nebenläufigkeit"],
             ["Mini-Projekt", "Mini-Projekt"],
         ],
