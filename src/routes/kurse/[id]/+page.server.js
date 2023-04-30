@@ -2,7 +2,6 @@ import { redirect } from '@sveltejs/kit';
 import { PROD_API_KEY, TEST_API_KEY } from '$env/static/private';
 import Stripe from 'stripe';
 import { kurse } from '$lib/Kursangebot';
-import { METHODS } from 'http';
 
 
 export async function load({ params }) {

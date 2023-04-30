@@ -12,7 +12,10 @@
     </div> -->
     <nav class="container-fluid">
       <ul>
-        <li><a href="./" class="contrast"><strong>CodeHeiner</strong></a></li>
+        <li>
+          <img src="chlogo.png" alt="logo" style={"height: 1.6vh; padding-left: 4px; margin-bottom: 5px"}>
+          <a href="./" class="contrast"><strong>CodeHeiner</strong></a>
+        </li>
       </ul>
 
       <ul>
@@ -48,7 +51,7 @@
         <h2>Die KIs sind Ihnen auf den Fersen. Lernen Sie heute worauf es morgen ankommt.<br>
       </h2>
       </hgroup>
-      <p><a href="kursübersicht.pdf" role="button" class="primary" download>Kursangebot als PDF downloaden</a></p>
+      <p><a href="Kursübersicht.pdf" role="button" class="primary" download>Kursangebot als PDF downloaden</a></p>
     </header>
 
   </div>

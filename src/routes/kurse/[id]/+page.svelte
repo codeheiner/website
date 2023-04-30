@@ -1,5 +1,4 @@
 <script>
-    import { page } from '$app/stores';
     export let data;
 
 </script>
@@ -13,7 +12,8 @@
     
     <hgroup>
         <h1>{ data.kurse.name }</h1>
-        <h2>Preis: { data.kurse.preis }€ | Azubis & Studenten: { data.kurse.studi_preis }€<br>
+        <h2>Preis: { data.kurse.preis }€ inkl. Arbeitsmaterialien und ausführlichem Feedback
+          <!-- | Azubis & Studenten: { data.kurse.studi_preis }€<br> -->
       </h2>
     </hgroup>
     {#if data.kurse.disclaimer}
@@ -94,7 +94,12 @@
           <input type="date" id="kurs_datum" name="kurs_datum" min={ data.start } step={ data.turnus }>
         </label> -->
               
-        <button type="submit" class="primary" id="checkout-button">JETZT BUCHEN!</button>
+        <button
+        type="submit" 
+        class="primary" 
+        id="checkout-button"
+        style={"background-color: "}
+        >KURS BUCHEN</button>
 
     </form>
 

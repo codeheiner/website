@@ -1,8 +1,8 @@
 export let kurse = [
     {
         "start_dates": ["06.05.2023", "13.05.2023", "20.05.2023", "27.05.2023"],
-        "price": "price_1MnOIbDlv47dRGNIEoIojwrw", 
-        "preis": 620,
+        "price": "price_1N1ssSDlv47dRGNIqLW8oUYk", 
+        "preis": 320,
         "studi_preis": 500,
         "name": "Programmieren für Einsteiger",
         "rows": [        
@@ -23,10 +23,10 @@ export let kurse = [
     
     {
         "start_dates": ["03.06.2023", "10.06.2023", "17.06.2023", "24.06.2023"],
-        "price": "price_1MqwM4Dlv47dRGNIHsJ3ANhk", 
-        "preis": 900,
+        "price": "price_1N1srFDlv47dRGNIItgKR7k6", 
+        "preis": 400,
         "studi_preis": 500,
-        "name": "Grundlagen des Maschinellen Lernens",
+        "name": "Machine Learning Starter",
         "rows": [        
             ["Was ist ML?", "Clustering"],
             ["Datenvorbereitung", "Neuronale Netze"],
@@ -39,7 +39,7 @@ export let kurse = [
         "beschreibung": "\
         In diesem intensiven Machine-Learning-Kurs \
         werden Sie die Grundlagen und fortgeschrittenen Techniken \
-        des Machine Learning kennenlernen. Wir werden uns mit Grundlagen der \
+        des Machine Learning kennenlernen. Wir werden uns mit \
         Datenverarbeitung, Regression, Klassifikation, Clustering, \
         Neuralen Netzen und Deep Learning befassen. Aber das ist nicht alles. \
         Das Gelernte werden Sie in praktische Erfahrungen umsetzen, indem Sie Übungen bearbeiten und \
@@ -49,10 +49,10 @@ export let kurse = [
     
     {
         "start_dates": ["16.04.2023", "16.04.2023", "16.04.2023", "16.04.2023"],
-        "price": "price_1MrlqeDlv47dRGNI8ZzF0MOC", 
-        "preis": 900,
+        "price": "price_1N1sgODlv47dRGNIRak9jSIf", 
+        "preis": 400,
         "studi_preis": 500,
-        "name": "Einführung in Data Science mit Python", 
+        "name": "Data Science Starter", 
         "rows": [   
             ['Introduction to Data Science', 'Statistical Inference'],
             ['Python Basics', 'Bayesian Data Analysis'],
