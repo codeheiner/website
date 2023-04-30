@@ -51,7 +51,7 @@
         <h2>Die KIs sind Ihnen auf den Fersen. Lernen Sie heute worauf es morgen ankommt.<br>
       </h2>
       </hgroup>
-      <p><a href="/Kursübersicht.pdf" role="button" class="primary" download>Kursangebot als PDF downloaden</a></p>
+      <p><a href="kursubersicht.pdf" role="button" class="primary" download>Kursangebot als PDF downloaden</a></p>
     </header>
 
   </div>
