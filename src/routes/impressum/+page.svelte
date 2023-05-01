@@ -6,7 +6,8 @@
         </h3>
     </hgroup>
     <address>
-        Raphael Feikert<br>
+        CodeHeiner<br>
+        vertreten durch: Raphael Feikert e. Kfm. <br>
         Im Hilsbruch 68<br>
         64291 Darmstadt<br>
         0157 58484289<br>
