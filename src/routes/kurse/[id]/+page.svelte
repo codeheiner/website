@@ -70,14 +70,14 @@
 
         <fieldset class="grid">
           
-          {#each data.course_dates.slice(2, 6) as date, i}
+          {#each data.course_dates.slice(0, 4) as date, i}
 
             <article style={"display: flex; flex-direction: column; "}>
 
               <div style={"display: flex; flex-direction: row; justify-content: space-between; align-items: center"}>
                 
                 <label for={ i }>
-                  { date.date }
+                  { date }
                 </label> 
                 
                 <input type="radio" id={ i } name="kurs_datum" value={ date }>
@@ -99,7 +99,9 @@
         class="primary" 
         id="checkout-button"
         style={"background-color: "}
-        >KURS BUCHEN</button>
+        >
+          KURS BUCHEN
+        </button>
 
     </form>
 

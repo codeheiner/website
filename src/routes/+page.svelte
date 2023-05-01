@@ -1,6 +1,4 @@
-<script>
-  import { kurse } from "../lib/Kursangebot";
-</script>
+
 
  <!-- Hero -->
  <div class="hero" data-theme="dark">
@@ -10,40 +8,7 @@
         falls es zu längeren Wartezeiten auf einen Platz kommt.
       </p>
     </div> -->
-    <nav class="container-fluid">
-      <ul>
-        <li>
-          <img src="chlogo.png" alt="logo" style={"height: 1.6vh; padding-left: 4px; margin-bottom: 5px"}>
-          <a href="./" class="contrast"><strong>CodeHeiner</strong></a>
-        </li>
-      </ul>
 
-      <ul>
-        <li>
-          <details role="list" dir="rtl">
-            <summary aria-haspopup="listbox" role="link" class="contrast">Intensiv-Kurse</summary>
-            <ul role="listbox">
-
-              {#each kurse as kurs, i}
-                <li><a href="/kurse/{ i }" data-theme-switcher="auto">{ kurs.name }</a></li>
-              {/each}
-              
-            </ul>
-          </details>
-        </li>
-        <!-- <li>
-          <details role="list" dir="rtl">
-            <summary aria-haspopup="listbox" role="link" class="contrast">Examples</summary>
-            <ul role="listbox">
-              <li><a href="../preview/">Preview</a></li>
-              <li><a href="../preview-rtl/">Right-to-left</a></li>
-            </ul>
-          </details>
-        </li> -->
-
-      </ul>
-
-    </nav>
 
     <header class="container" style={"height: 80vh"}>
       <hgroup>
@@ -160,13 +125,6 @@
     </div>
   </section> -->
 
-<footer class="container">
-  <nav>
-      <ul>
-          <li><a href="./impressum">Impressum</a></li>
-          <li><a href="./anfahrt">Anfahrt</a></li>
-      </ul>
-  </nav>
-</footer>
+
 
   <!-- Für fast die Hälfte der befragten Firmen stellen Kosten (48 %) und Zeitmangel (46 %) die größten Hürden bei der Digitalisierung ihres Unternehmens dar, gefolgt von Unsicherheit bezüglich Sicherheit und Datenschutz (39 %). Für mehr als ein Drittel (37 %) der Befragten ist mangelndes Know-how die größte Digitalisierungs-Bremse, bei knapp einem Viertel (24 %) scheitert es am Interesse. -->
