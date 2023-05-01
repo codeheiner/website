@@ -4,8 +4,11 @@
 <nav class="container-fluid">
   <ul>
     <li>
-      <img src="chlogo.png" alt="logo" style={"height: 1.6vh; padding-left: 4px; margin-bottom: 5px"}>
-      <a href="./" class="contrast"><strong>CodeHeiner</strong></a>
+      
+      <a href="https://www.codeheiner.de" class="contrast">
+        <img src="chlogo.png" alt="logo" style={"height: 1.6vh; padding-left: 4px; margin-bottom: 5px"}>
+        <strong>CodeHeiner</strong>
+      </a>
     </li>
   </ul>
 
