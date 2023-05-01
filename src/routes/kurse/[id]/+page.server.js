@@ -11,7 +11,7 @@ export async function load({ params }) {
     const price = course_data.price
 
     const res = await fetch(
-        "https://codeheiner-backend-8gtebm2hf-codeheiner.vercel.app/dates/" + price  
+        "https://codeheiner-backend-dqppwh4o2-codeheiner.vercel.app/dates/" + price  
     )
 
     const course_dates = await res.json()
