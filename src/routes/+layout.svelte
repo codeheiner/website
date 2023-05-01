@@ -44,6 +44,7 @@
       <ul>
           <li><a href="https://www.codeheiner.de/impressum">Impressum</a></li>
           <li><a href="https://www.codeheiner.de/anfahrt">Anfahrt</a></li>
+          <!-- <li><a href="./anfahrt">Anfahrt</a></li> -->
       </ul>
   </nav>
 </footer>
