@@ -42,8 +42,8 @@
 <footer class="container">
   <nav>
       <ul>
-          <li><a href="https://www.codeheinier.de/impressum">Impressum</a></li>
-          <li><a href="https://www.codeheinier.de/anfahrt">Anfahrt</a></li>
+          <li><a href="https://www.codeheiner.de/impressum">Impressum</a></li>
+          <li><a href="https://www.codeheiner.de/anfahrt">Anfahrt</a></li>
       </ul>
   </nav>
 </footer>
